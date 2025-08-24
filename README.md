@@ -10,4 +10,6 @@ Implementing a fixed-capacity queue that:
 - Exposes simple stats (`len`, `capacity`)
 
 ## Build and run
+- cc -O2 -Wall -Wextra -std=c11 -Iinclude src/bqueue.c demo.c -o demo -lpthread
+- ./demo
 
